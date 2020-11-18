@@ -30,8 +30,11 @@ but analysis on the entire 1169 movie script library can be run using:
 
 
 `python3 -m pip install -r python/requirements.txt`
+
 `pip install -U textblob`
+
 `python3 -m textblob.download_corpora # to unstall dependencies`
+
 `python/run-scripts`
 
 * takes about 12.5 minutes to complete.
