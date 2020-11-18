@@ -1,0 +1,11 @@
+
+
+<b><!--
+</b>if (window!= top)
+top.location.href=location.href
+<b>// -->
+</b>
+
+Shampoo - by Robert Towne and Warren Beatty
+
+

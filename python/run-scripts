@@ -1,0 +1,40 @@
+#!/bin/bash
+
+echo "
+
+███████╗███╗   ███╗ ██████╗ ████████╗██╗ ██████╗ ███╗   ██╗    ██████╗ ██╗██╗  ██╗
+██╔════╝████╗ ████║██╔═══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║    ██╔══██╗██║╚██╗██╔╝
+█████╗  ██╔████╔██║██║   ██║   ██║   ██║██║   ██║██╔██╗ ██║    ██████╔╝██║ ╚███╔╝
+██╔══╝  ██║╚██╔╝██║██║   ██║   ██║   ██║██║   ██║██║╚██╗██║    ██╔═══╝ ██║ ██╔██╗
+███████╗██║ ╚═╝ ██║╚██████╔╝   ██║   ██║╚██████╔╝██║ ╚████║    ██║     ██║██╔╝ ██╗
+╚══════╝╚═╝     ╚═╝ ╚═════╝    ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═╝     ╚═╝╚═╝  ╚═╝
+"
+
+echo -e "> Welcome to our script wrapper."
+echo -e "\n> This wrapper will execute all 8 scripts which produce the movie script sentiment dataset."
+echo -e "\n> The full unfiltered dataset is in the 'script_sentiment_data.json' file."
+echo -e "\n> The filtered dataset is in the 'filtered_script_data.json' file, and only contains movies with scripts & clips."
+
+echo -e "\n> Executing script_parser.py\n"
+python3 python/script_parser.py
+
+echo -e '\n> Executing create_dialog_list.py\n'
+python3 python/create_dialog_list.py
+
+echo -e '\n> Executing sentiment_nb_classifier.py\n'
+python3 python/sentiment_nb_classifier.py
+
+echo -e '\n> Executing sentiment_labeler.py\n'
+python3 python/sentiment_labeler.py
+
+echo -e '\n> Executing sentiment_tester.py\n'
+python3 python/sentiment_tester.py
+
+echo -e '\n> Executing script_sentiment_calculator.py\n'
+python3 python/script_sentiment_calculator.py
+
+echo -e '\n> Executing sentiment_sorter.py\n'
+python3 python/sentiment_sorter.py
+
+echo -e '\n> Executing script_clip_matcher.py\n'
+python3 python/script_clip_matcher.py

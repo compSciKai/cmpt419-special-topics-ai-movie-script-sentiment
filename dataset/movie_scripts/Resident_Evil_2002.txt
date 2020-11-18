@@ -1,0 +1,10 @@
+
+
+<b><!--
+</b>if (window!= top)
+top.location.href=location.href
+<b>// -->
+</b>
+
+Resident Evil - by George A. Romero
+

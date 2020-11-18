@@ -1,0 +1,10 @@
+tqdm
+beautifulsoup4
+IMDbPY
+youtube_dl
+selenium
+psutil
+lxml
+webvtt-py
+requests
+plotly

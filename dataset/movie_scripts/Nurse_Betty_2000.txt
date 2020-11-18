@@ -1,0 +1,9 @@
+
+
+      "NURSE BETTY" -- by John C. Richards & James Flamberg
+
+<b><!--
+</b>if (window!= top)
+top.location.href=location.href
+<b>// -->
+</b>

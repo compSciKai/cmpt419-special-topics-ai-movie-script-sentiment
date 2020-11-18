@@ -1,0 +1,10 @@
+
+
+<b><!--
+</b>if (window!= top)
+top.location.href=location.href
+<b>// -->
+</b>
+
+Life as a House - By Mark Andrus
+
