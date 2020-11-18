@@ -51,7 +51,7 @@ sentiment_nb_classifier.py creates a dataset of sentiment labels using the movie
 
 ### Parser script output
 
-![](Screenshot\ from\ 2020-11-18\ 12-45-56.png)
+![](Screenshot from 2020-11-18 12-45-56.png)
 
 ![](Screenshot\ from\ 2020-11-18\ 12-51-08.png)
 
