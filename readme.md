@@ -1,6 +1,7 @@
 # CMPT419 Special Topics in AI: Affective Computing -- Movie Script Sentiment Analysis
 
-This project was completed during the "Special Topics in Artificial Intelligence: Affective Computing" course taken at SFU http://www.sfu.ca/outlines.html?2020/summer/cmpt/419/d100
+This project was completed during the "Special Topics in Artificial Intelligence: Affective Computing" course taken at SFU http://www.sfu.ca/outlines.html?2020/summer/cmpt/419/d100.
+Students were able to create their own final projects, so all of the content in this repo is of my own making. 
 
 ### Inspiration
 
